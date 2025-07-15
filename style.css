@@ -13,6 +13,7 @@ a {
 }
 :root , html, body{
   font-family: "Open Sans", sans-serif;
+  color: white;
 }
 .header{
   background: #333;
@@ -37,10 +38,53 @@ a {
   display: block;
 }
 .header nav ul li a:hover {
-  
   background: #444;
- 
 }
 .Acceuil{
   background: #444;
+}
+.content{
+  background: url(images/bgd.jpg);
+  height: 600px;
+  background-size: cover;
+  text-align: center;
+}
+.box {
+  margin: auto;
+  display: block;
+  padding-top: 145px;
+  max-width: 600px;
+  
+}
+.titre {
+  font-weight: bold;
+  unicode-bidi: isolate;
+  display: block;
+  font-size: 48px;
+  letter-spacing: 1px;
+}
+.ligne {
+  background-color: black;
+  width: 110px;
+  height: 12px;
+  margin: 20px auto;
+}
+p {
+  font-size: 18px;
+  line-height: 1.9em;
+  letter-spacing: 0.6px;
+}
+.DECOUVRIR {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  line-height: 6em;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: 0px;
+  font-weight: 700;
+}
+.DECOUVRIR:hover{
+  background: black;
+  color: white;
 }
