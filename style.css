@@ -116,3 +116,38 @@ i{
   line-height: 1.5em;
   letter-spacing: 0.6px;
 }
+.section3{
+  overflow: auto;
+  text-align: center;
+  padding: 100px 0px 100px 0px;
+}
+.section3 p {
+  font-size: 15px;
+  line-height: 1.5em;
+  letter-spacing: 0.6px;
+}
+.Reservez{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: 0px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.Reservez:hover {
+  color: black; 
+  background-color: white;
+  font-size: 14px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: solid 1px black;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
