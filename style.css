@@ -13,12 +13,13 @@ a {
 }
 :root , html, body{
   font-family: "Open Sans", sans-serif;
-  color: white;
+  
 }
 .header{
   background: #333;
   overflow: auto;
   line-height: 1.7em;
+  color: white;
 }
 .logo{
   float: left;
@@ -48,6 +49,7 @@ a {
   height: 600px;
   background-size: cover;
   text-align: center;
+  color: white;
 }
 .box {
   margin: auto;
@@ -87,4 +89,30 @@ p {
 .DECOUVRIR:hover{
   background: black;
   color: white;
+}
+.café{
+  float: left;
+  width: 50%;  
+}
+.section1{
+  overflow: auto;
+  text-align: center;
+  padding: 100px 0px 100px 0px;
+}
+.container{
+  display: block;
+  width: 1000px;
+  margin: auto;
+
+}
+
+i{
+  font-size: 50px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.section1 p {
+  font-size: 15px;
+  line-height: 1.5em;
+  letter-spacing: 0.6px;
 }
