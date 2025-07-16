@@ -160,3 +160,63 @@ footer {
 .active{
   background: #444;
 }
+.contact{
+  text-align: left;
+  padding: 160px 40px 100px 4px;
+  
+}
+.form h1{
+  padding-bottom: 9px;
+  border-bottom: 1px solid rgba(129, 126, 126, 0.387);
+}
+.form {
+  margin: auto;
+  width: 600px;
+}
+.form label{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  font-weight: 700;
+  
+}
+.form form input{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+
+}
+
+textarea{
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 16px;
+  width: 100%;
+}
+button{
+  
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: 0px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+button:hover{
+  color: black; 
+  background-color: white;
+  font-size: 14px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: solid 1px black;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
