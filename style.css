@@ -226,3 +226,37 @@ button:hover{
   margin-bottom: 20px;
   display: inline-block;
 }
+.trouver{
+  padding: 170px 0px;
+  overflow: auto;
+}
+
+.map {
+  display: block;
+  margin: auto;
+  max-width: 900px;
+ 
+}
+.carte{
+  float: left;
+  width: 45%;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+.addresse{
+  float: left;
+  padding-left: 30px;
+  display: block;
+  margin: auto;
+  width: 425px;
+}
+.addresse p {
+  
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0.1px;
+}
+.addresse h2 {
+  padding-bottom: 9px;
+  border-bottom: 1px solid rgba(129, 126, 126, 0.387);
+}
