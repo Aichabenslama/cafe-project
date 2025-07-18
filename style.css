@@ -116,6 +116,12 @@ i{
   line-height: 1.5em;
   letter-spacing: 0.6px;
 }
+.person {
+  background-image: url(images/cafe3.jpg);
+  height: 500px;
+  background-position: center center;
+  background-size: cover; 
+}
 .section3{
   overflow: auto;
   text-align: center;
